@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" ignored="0" total="8" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="84978" started-at="2023-03-07T15:33:39 IST" finished-at="2023-03-07T15:35:04 IST">
+    <groups>
+      <group name="particular">
+        <method signature="LoginTest.Addsingle(java.lang.String)[pri:2, instance:PurchaseItemCase.LoginTest@16f7c8c1]" name="Addsingle" class="PurchaseItemCase.LoginTest"/>
+        <method signature="LoginTest.Signup()[pri:1, instance:PurchaseItemCase.LoginTest@16f7c8c1]" name="Signup" class="PurchaseItemCase.LoginTest"/>
+      </group> <!-- particular -->
+    </groups>
+    <test name="Default test" duration-ms="84978" started-at="2023-03-07T15:33:39 IST" finished-at="2023-03-07T15:35:04 IST">
+      <class name="PurchaseItemCase.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:PurchaseItemCase.LoginTest@16f7c8c1]" name="setup" is-config="true" duration-ms="22206" started-at="2023-03-07T15:33:39 IST" finished-at="2023-03-07T15:34:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Signup()[pri:1, instance:PurchaseItemCase.LoginTest@16f7c8c1]" name="Signup" duration-ms="7733" started-at="2023-03-07T15:34:01 IST" finished-at="2023-03-07T15:34:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signup -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:PurchaseItemCase.LoginTest@16f7c8c1]" name="teardown" is-config="true" duration-ms="10" started-at="2023-03-07T15:34:09 IST" finished-at="2023-03-07T15:34:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Signup status=SUCCESS method=LoginTest.Signup()[pri:1, instance:PurchaseItemCase.LoginTest@16f7c8c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Addsingle(java.lang.String)[pri:2, instance:PurchaseItemCase.LoginTest@16f7c8c1]" name="Addsingle" duration-ms="10362" started-at="2023-03-07T15:34:09 IST" data-provider="SinData" finished-at="2023-03-07T15:34:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung galaxy s6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addsingle -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:PurchaseItemCase.LoginTest@16f7c8c1]" name="teardown" is-config="true" duration-ms="1" started-at="2023-03-07T15:34:19 IST" finished-at="2023-03-07T15:34:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Addsingle status=SUCCESS method=LoginTest.Addsingle(java.lang.String)[pri:2, instance:PurchaseItemCase.LoginTest@16f7c8c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="delIt()[pri:3, instance:PurchaseItemCase.LoginTest@16f7c8c1]" name="delIt" duration-ms="7185" started-at="2023-03-07T15:34:19 IST" finished-at="2023-03-07T15:34:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delIt -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:PurchaseItemCase.LoginTest@16f7c8c1]" name="teardown" is-config="true" duration-ms="1" started-at="2023-03-07T15:34:26 IST" finished-at="2023-03-07T15:34:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=delIt status=SUCCESS method=LoginTest.delIt()[pri:3, instance:PurchaseItemCase.LoginTest@16f7c8c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="multiselect(java.lang.String)[pri:4, instance:PurchaseItemCase.LoginTest@16f7c8c1]" name="multiselect" duration-ms="11318" started-at="2023-03-07T15:34:26 IST" data-provider="Finddata" finished-at="2023-03-07T15:34:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nokia lumia 1520]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiselect -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:PurchaseItemCase.LoginTest@16f7c8c1]" name="teardown" is-config="true" duration-ms="4" started-at="2023-03-07T15:34:38 IST" finished-at="2023-03-07T15:34:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=multiselect status=SUCCESS method=LoginTest.multiselect(java.lang.String)[pri:4, instance:PurchaseItemCase.LoginTest@16f7c8c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="multiselect(java.lang.String)[pri:4, instance:PurchaseItemCase.LoginTest@16f7c8c1]" name="multiselect" duration-ms="12659" started-at="2023-03-07T15:34:38 IST" data-provider="Finddata" finished-at="2023-03-07T15:34:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nexus 6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiselect -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:PurchaseItemCase.LoginTest@16f7c8c1]" name="teardown" is-config="true" duration-ms="1" started-at="2023-03-07T15:34:50 IST" finished-at="2023-03-07T15:34:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=multiselect status=SUCCESS method=LoginTest.multiselect(java.lang.String)[pri:4, instance:PurchaseItemCase.LoginTest@16f7c8c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="multiselect(java.lang.String)[pri:4, instance:PurchaseItemCase.LoginTest@16f7c8c1]" name="multiselect" duration-ms="12310" started-at="2023-03-07T15:34:50 IST" data-provider="Finddata" finished-at="2023-03-07T15:35:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iphone 6 32gb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiselect -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:PurchaseItemCase.LoginTest@16f7c8c1]" name="teardown" is-config="true" duration-ms="2" started-at="2023-03-07T15:35:03 IST" finished-at="2023-03-07T15:35:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=multiselect status=SUCCESS method=LoginTest.multiselect(java.lang.String)[pri:4, instance:PurchaseItemCase.LoginTest@16f7c8c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="FAIL" signature="multiselect(java.lang.String)[pri:4, instance:PurchaseItemCase.LoginTest@16f7c8c1]" name="multiselect" duration-ms="32" started-at="2023-03-07T15:35:03 IST" data-provider="Finddata" finished-at="2023-03-07T15:35:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sony xperia z5]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [98a8b10ded78e88c0bd0ad6d61d31ce1, findElement {using=xpath, value=//li/a[contains(text(),'Home')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\ELCOT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50698}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50698/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 98a8b10ded78e88c0bd0ad6d61d31ce1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [98a8b10ded78e88c0bd0ad6d61d31ce1, findElement {using=xpath, value=//li/a[contains(text(),'Home')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\ELCOT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50698}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50698/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 98a8b10ded78e88c0bd0ad6d61d31ce1
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at PurchaseItemCase.LoginTest.multiselect(LoginTest.java:138)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiselect -->
+        <test-method status="FAIL" signature="teardown(org.testng.ITestResult)[pri:0, instance:PurchaseItemCase.LoginTest@16f7c8c1]" name="teardown" is-config="true" duration-ms="209" started-at="2023-03-07T15:35:03 IST" finished-at="2023-03-07T15:35:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=multiselect status=FAILURE method=LoginTest.multiselect(java.lang.String)[pri:4, instance:PurchaseItemCase.LoginTest@16f7c8c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [98a8b10ded78e88c0bd0ad6d61d31ce1, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\ELCOT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50698}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50698/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 98a8b10ded78e88c0bd0ad6d61d31ce1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [98a8b10ded78e88c0bd0ad6d61d31ce1, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\ELCOT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50698}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50698/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 98a8b10ded78e88c0bd0ad6d61d31ce1
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:331)
+at Utilitty.utilities.getScreenshot(utilities.java:15)
+at PurchaseItemCase.LoginTest.teardown(LoginTest.java:181)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="SKIP" signature="orderplace()[pri:5, instance:PurchaseItemCase.LoginTest@16f7c8c1]" name="orderplace" duration-ms="0" started-at="2023-03-07T15:35:03 IST" depends-on-methods="PurchaseItemCase.LoginTest.multiselect" finished-at="2023-03-07T15:35:03 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method LoginTest.orderplace()[pri:5, instance:PurchaseItemCase.LoginTest@16f7c8c1] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method LoginTest.orderplace()[pri:5, instance:PurchaseItemCase.LoginTest@16f7c8c1] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderplace -->
+        <test-method status="SKIP" signature="finishExtent()[pri:0, instance:PurchaseItemCase.LoginTest@16f7c8c1]" name="finishExtent" is-config="true" duration-ms="-1678183504017" started-at="2023-03-07T15:35:04 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishExtent -->
+      </class> <!-- PurchaseItemCase.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
