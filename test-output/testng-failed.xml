@@ -8,7 +8,7 @@
           <include name="setup"/>
           <include name="finishExtent"/>
           <include name="teardown"/>
-          <include name="multiselect" invocation-numbers="3"/>
+          <include name="multiselect"/>
           <include name="orderplace"/>
         </methods>
       </class> <!-- PurchaseItemCase.LoginTest -->

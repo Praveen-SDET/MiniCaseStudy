@@ -11,6 +11,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
@@ -38,11 +39,11 @@ public class LoginTest {
 	ExtentTest extentTest;
   @BeforeTest
   public void setup() throws IOException {
-	  WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+//	  WebDriverManager.chromedriver().setup();
+//		driver = new ChromeDriver();
 		
-//		WebDriverManager.edgedriver().setup();
-//		driver = new EdgeDriver();
+		WebDriverManager.edgedriver().setup();
+		driver = new EdgeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.demoblaze.com/index.html");
 		reports = new ExtentReports();
@@ -93,6 +94,7 @@ public class LoginTest {
 		String availitem = driver.findElement(By.cssSelector(".panel-title")).getText();
 		int bef = Integer.parseInt(availitem);
 	  driver.findElement(By.xpath("(//td/a[contains(text(),'Delete')])[1]")).click();
+	  
 	  String aftitem = driver.findElement(By.cssSelector(".panel-title")).getText();
 	//  driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
 		int aft = Integer.parseInt(availitem);
@@ -166,7 +168,7 @@ public class LoginTest {
 	  
 	  driver.findElement(By.xpath("//div/button[contains(text(),'Purchase')]")).click();
 	  Thread.sleep(3000);
-	  driver.findElement(By.xpath("//div/button[contains(text(),'OK ok')]")).click(); 
+	  driver.findElement(By.xpath("//div/button[contains(text(),'OK')]")).click(); 
   }
   
   
